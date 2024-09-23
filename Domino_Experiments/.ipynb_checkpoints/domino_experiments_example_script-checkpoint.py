@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestRegressor
 # create and set a new experiment
 # Define the experiment name
 username = os.environ['DOMINO_STARTING_USERNAME']
-experiment_name = f"random-forest-gen-{username}"
+experiment_name = f"random-forest-gen-{username}-v2"
 
 # Check if the experiment already exists
 experiment = mlflow.get_experiment_by_name(experiment_name)
